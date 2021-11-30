@@ -44,5 +44,16 @@ public class search extends Pane {
 	        this.inputField.setLayoutX(200);
 	        this.inputField.setLayoutY(180);
 	        this.getChildren().add(this.inputField);
+	        
+	        this.inputField2.setLayoutX(200);
+	        this.inputField2.setLayoutY(140);
+	        this.getChildren().add(this.inputField2);
+	      
+	        
+	        this.Book.setText("Book Name");
+	        this.Book.setLayoutX(100);
+	        this.Book.setLayoutY(140);
+	        this.setTextFill(Color.BLUE);
+	        this.getChildren().add(this.Book);
 	  
 }
