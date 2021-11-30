@@ -56,4 +56,17 @@ public class search extends Pane {
 	        this.setTextFill(Color.BLUE);
 	        this.getChildren().add(this.Book);
 	  
+	        this.Aurther.setText("Aurther Name");
+	        this.Aurther.setLayoutX(100);
+	        this.Aurther.setLayoutY(180);
+	        this.getChildren().add(this.Aurther);
+	        
+	        this.back.setText("SEARCH");
+	        this.back.setLayoutX(290);
+	        this.back.setLayoutY(220);
+	        this.getChildren().add(this.back);
+	        
+	    }
+		private void setTextFill(Color white) {
+			// TODO Auto-generated method stub
 }
