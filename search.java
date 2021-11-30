@@ -28,5 +28,21 @@ public class search extends Pane {
 	    	this.searchscreen = new Label();
 	    	this.init();
 	    }
+	    private void init() {
+	    	this.title.setText("ARABIC CORPUS");
+	    	this.title.setFont(Font.font(40));
+	    	this.title.setLayoutX(70);
+	    	this.title.setLayoutY(10);
+	        this.getChildren().add(this.title);
+	        
+	        this.searchscreen.setText("Search Screen");
+	        this.searchscreen.setFont(Font.font(20));
+	    	this.searchscreen.setLayoutX(100);
+	    	this.searchscreen.setLayoutY(100);
+	        this.getChildren().add(this.searchscreen);
+	        
+	        this.inputField.setLayoutX(200);
+	        this.inputField.setLayoutY(180);
+	        this.getChildren().add(this.inputField);
 	  
 }
